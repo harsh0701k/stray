@@ -1,0 +1,28 @@
+.react-select__control {
+  @apply bg-pastelBrownTheme-cardColor     dark:bg-dark-800 dark:border-dark-700 !important;
+}
+
+.react-select__single-value {
+  @apply text-primaryText  dark:text-white !important;
+}
+
+.react-select__menu {
+  @apply bg-pastelBrownTheme-cardColor  dark:border-dark-700;
+}
+
+.react-select__menu-list {
+  @apply bg-pastelBrownTheme-cardColor dark:bg-dark-800 dark:border-dark-700 dark:rounded !important;
+}
+
+.react-select__option--is-focused {
+  @apply bg-pastelBrownTheme-cardColor text-primaryText dark:bg-dark-800 dark:text-white hover:dark:bg-dark-700 hover:dark:text-white !important;
+}
+
+.react-select__option--is-selected,
+.react-select__option--is-selected:hover {
+  @apply bg-pastelBrownTheme-cardColor dark:bg-dark-600 !important;
+}
+
+.react-select__multi-value__remove {
+  @apply text-pastelBrownTheme-cardColor dark:bg-dark-600 dark:text-white hover:dark:bg-red-300 hover:dark:text-red-600 !important;
+}
